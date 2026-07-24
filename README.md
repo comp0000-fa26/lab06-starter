@@ -74,6 +74,14 @@ After deployment, it will display something like this:
 ```
 You can get the URL of your deployed class poll in `Aliased`.
 
+You can also link back the project by using `vercel link`
+```bash
+npm i -g vercel #if have not install vercel in brand new computer
+vercel login #if have not login
+
+vercel link
+```
+
 ### Before opening the deployment URL
 Go back to `Vercel Storage` and click `Connect to Project`.
 1. Select your project.
